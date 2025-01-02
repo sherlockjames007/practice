@@ -1,0 +1,10 @@
+name: "My Custom Action"
+description: "An example action to print Hello, World!"
+inputs:
+  name:
+    description: "Name to greet"
+    required: true
+    default: "World"
+runs:
+  using: "node16"
+  main: "index.js"
